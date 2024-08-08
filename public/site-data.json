@@ -1,0 +1,64 @@
+{
+  "logo": {
+    "src": "/images/logo-square.png",
+    "alt": "NextBlog"
+  },
+    "siteInfo": {
+      "url": "https://thoughtsmate.com",
+      "title": "NextBlog",
+      "description": "A blog site built with Next.js and WordPress",
+      "email": "royutsargo@gmail.com",
+      "contactFormLink": "https://formspree.io/f/mrbzpojo"
+    },
+    "menuItems": [
+      {
+        "href": "/",
+        "linkText": "Home"
+      },
+      {
+        "href": "/authors",
+        "linkText": "Authors"
+      },
+      {
+        "href": "/categories",
+        "linkText": "Categories"
+      },
+      {
+        "href": "/contact",
+        "linkText": "Contact"
+      }
+    ],
+    "buttons" : {
+      "readMore": "Read More",
+      "more": "More...",
+      "contactSubmit": "Send Message",
+      "loading": "Loading...",
+      "loadMore": "Load More",
+      "noMorePosts": "No more posts available",
+      "search": "Search",
+      "cancel": "Cancel"
+    },
+    "messages": {
+      "noPosts": "No posts found",
+      "searching": "Searching..."
+    },
+    "placeholders": {
+      "search": "Search...",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "searchAutors": "Search Authors",
+      "searchCategories": "Search Categories"
+    },
+    "pageHeadings": {
+      "searchResults": "Search Results",
+      "searchPosts": "Search Posts",
+      "authors": "Authors",
+      "categories": "Categories",
+      "contact": "Contact"
+    },
+    "texts":{
+      "postCount": "Posts"
+    }
+  }
+  
