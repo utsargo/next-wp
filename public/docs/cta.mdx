@@ -1,0 +1,42 @@
+---
+title: How to use CTA Component?
+---
+
+CTA component is a customzable and reusable component. 
+
+**Step 1:** create a markdown file in /public/content folder. For example, the file could be `cta-content.md`. The file will contain some frontmatters like below
+
+```markdown
+---
+cta-heading: "Want to Share Your Thoughts?"
+cta-text: "We are always looking for fresh perspectives. Submit your article and become a contributor today!"
+cta-button-text: "Submit Your Article"
+cta-button-link: "/contact"
+---
+```
+
+
+**Step 2:** Then you have to import the component into the the file:
+
+```javascript
+import CTA from "@/components/cta";
+```
+Now you can use the component anywhere you want. By default it will take a required parameter called `filename`.
+
+```javascript
+<CTA filename="cta-content.md">
+```
+
+It will give you this:
+![Default CTA](/images/cta-default.png)
+
+It takes two additional parameters `bgClass` and `btnClass`. With these parameters you can customize the background and button color of the CTA. For Example, look into the code below:
+
+```js
+<CTA bgClass="bg-red-800" btnClass="bg-green-700 hover:bg-green-600" fileName="cta-content.md"/>
+```
+
+This will produce the following output:
+![Customized CTA](/images/cta-custom.png)
+
+

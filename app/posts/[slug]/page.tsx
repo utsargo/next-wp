@@ -103,7 +103,7 @@ const BlogPost = async ({ params }: BlogPostProps) => {
           </div>
           
         </section>
-        <Container className="py-8 flex flex-col items-start">
+        <Container className="py-8 flex flex-col items-start md:w-[90%]">
           <div className="text-[20px] py-4" dangerouslySetInnerHTML={{ __html: cleanedContent }} />
           
           <div className="px-4 w-full">

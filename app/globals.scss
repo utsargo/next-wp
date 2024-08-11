@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import 'prismjs/themes/prism-tomorrow.css';
 
 $slate: rgb(2, 6, 23);
 
@@ -70,6 +71,7 @@ blockquote {
   border-left: 5px solid rgba($slate, 0.2);
   font-weight: bold;
   padding: 20px 16px 8px 36px;
+  width: -moz-fit-content;
   width: fit-content;
   // max-width: 90%;
   position: relative;

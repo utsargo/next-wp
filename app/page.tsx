@@ -1,6 +1,7 @@
 import CategoryPosts from "@/components/category-section";
 import Container from "@/components/container";
 import PostSlider from "@/components/post-slider";
+import CTA from "@/components/cta";
 
 export default async function Home() {
   return (
@@ -10,6 +11,7 @@ export default async function Home() {
     </div>
     
     <Container className="py-8">
+      <CTA fileName="cta-content.md"/>
       <CategoryPosts categorySlug="molestiae" numberOfPosts={4} imageLoading="eager"/>
       <CategoryPosts categorySlug="qui" numberOfPosts={4} />
       <CategoryPosts categorySlug="similique" numberOfPosts={4} />
